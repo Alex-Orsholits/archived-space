@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <link rel="icon" href="favicon.png">
+    <meta charset="utf-8">
+    <title>Spatial Perception</title>
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <script src="scripts/p5.min.js"></script>
+    <script src="scripts/p5.dom.min.js"></script>
+  </head>
+
+<style>
+  body, html {
+    -webkit-text-size-adjust: 100%;
+    display:flex;
+    margin: 0;
+    cursor: crosshair;
+    background: transparent;
+    overflow: hidden;
+  }
+
+
+a{
+  font-size: 150%;
+    text-decoration: none;
+  background: transparent;
+  font-weight: normal;
+  font-family: SuisseIntlMono-Thin-WebXL;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: rgb(200, 200, 200);
+}
+
+h1, h2, h3 {
+  background: rgba(255,255,255,0.5);
+  margin: 0;
+  font-weight: normal;
+  font-family: SuisseIntlMono-Thin-WebXL;
+}
+
+
+p {
+  font-size: 8pt;
+  font-family: SuisseIntlMono-Regular-WebXL;
+}
+::selection{
+  background: rgba(155,155,155,0.2);
+}
+
+::-webkit-scrollbar {
+width: 1px;
+height: 1px;
+}
+
+
+::-webkit-scrollbar-thumb {
+background:rgba(0,0,0,0.2);
+border-radius: 10px;
+}
+
+
+
+</style>
+
+ <body>
+   <div id="canvas">
+         <script src="about.js"></script>
+   </div>
+  </body>
+</html>
